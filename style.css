@@ -9,6 +9,9 @@ body {
 }
 
 table {
+    /* 數字長度超過計算機寬度會自動換行 */
+    table-layout: fixed;
+    word-break: break-all;
     position: absolute;
     top: 50%;
     left: 50%;
